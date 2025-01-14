@@ -1,0 +1,52 @@
+# Ignore build results
+bin/
+obj/
+
+# User-specific files
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET temporary files
+.vs/
+.vs2019/
+.vs2017/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider files
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Npm/Yarn packages
+node_modules/
+
+# IIS express configurations
+/IISExpress/
+
+# Local db files
+*.mdf
+*.ldf
+
+# DotCover coverage files
+.idea/.idea
+
+# Visual Studio for Mac files
+.vscode/
+
+# Exclude user-specific and IDE-specific settings
+.vscode/
+.idea/
+
+# Resharper files
+_ReSharper*/
