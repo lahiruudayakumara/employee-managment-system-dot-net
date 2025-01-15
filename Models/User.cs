@@ -4,7 +4,7 @@ namespace EmployeeManagementSystem.Models
 {
     public class User
     {
-[Key]
+        [Key]
         public int Id { get; set; }
         [Required]
         public string FullName { get; set; } = string.Empty;
