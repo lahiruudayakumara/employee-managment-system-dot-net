@@ -25,7 +25,7 @@ namespace EmployeeManagementSystem.Models
         [Required]
         public int DepartmentId { get; set; }
 
-        public Department? Department { get; set; } // Navigation property
+        public Department? Department { get; set; } = null!;
 
         [Required]
         public DateTime HireDate { get; set; } = DateTime.UtcNow;
@@ -41,6 +41,6 @@ namespace EmployeeManagementSystem.Models
         [Phone]
         public string PhoneNumber { get; set; } = string.Empty;
 
-        public bool IsActive { get; set; } = true; // Active status of the employee
+        public bool IsActive { get; set; } = true;
     }
 }
